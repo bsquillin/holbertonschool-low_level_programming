@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <unistd.h>
 #include <holbeerton.h>
 /**
@@ -16,3 +17,28 @@ int main(void);
 	_putchar("\n");
 	return (write(1, &c, 1));
 }
+=======
+#include <holberton.h>
+#include <stdio.h>
+
+/**
+ *main - putchar holberton
+ *Return: 0
+ */
+ 
+ int main()
+ {
+  _putchar("H");
+  _putchar("o");
+  _putchar("l");
+  _putchar("b");
+  _putchar("e");
+  _putchar("r");
+  _putchar("t");
+  _putchar("o");
+  _putchar("n");
+  _putchar("\n");
+
+  return 0;
+  }
+>>>>>>> c06be78c030a97aae39cfad9c709d7f41a8c6e97
