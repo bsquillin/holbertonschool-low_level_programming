@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * main - printing the alphabet with _putchar
+ * print_alphabet - entry point
  *
- *Return: 0
+ *Return: void
  */
 
 void print_alphabet(void)
@@ -15,5 +15,5 @@ void print_alphabet(void)
 	}
 
 	_putchar('\n');
-	return 0;
+	
 }
