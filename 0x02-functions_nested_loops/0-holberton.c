@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "holberton.h"
 
 /**
@@ -21,4 +22,30 @@ int main(void)
 
 	return (0);
 
+=======
+#include <holberton.h>
+#include <stdio.h>
+
+/**
+ *main - putchar holberton
+ *Return: void
+ */
+ 
+int main(void)
+{
+  char c;
+ {
+  _putchar('H');
+  _putchar('o');
+  _putchar('l');
+  _putchar('b');
+  _putchar('e');
+  _putchar('r');
+  _putchar('t');
+  _putchar('o');
+  _putchar('n');
+  _putchar('\n';
+  }
+  return 0;
+>>>>>>> 50ec5e35d639594b3ab880e3131a9f83e4c0f8ed
 }
