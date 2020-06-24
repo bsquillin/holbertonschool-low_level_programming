@@ -1,19 +1,28 @@
+
 #include "holberton.h"
 /**
- * print_alphabet - entry point
+ * print_alphabet - code from Hol
  *
- *Return: void
+ *Return: Always 0.
  */
 
 void print_alphabet(void)
 {
-	char c;
 
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		_putchar(c);
-	}
+int c;
 
-	_putchar('\n');
+
+
+for (c = 97 ; c <= 122 ; c++)
+
+{
+
+	_putchar(c);
 
 }
+
+_putchar('\n');
+
+}
+
+
